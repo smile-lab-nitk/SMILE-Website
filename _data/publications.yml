@@ -1,0 +1,100 @@
+- paper:
+  author: 
+  pub: 
+  type:
+  project_page:
+  paper_link: 
+  code_link: 
+  bibtex: 
+
+
+################### Coferences and Journals ###################
+
+
+- paper: "COVID-19 PATIENT DETECTION FROM TELEPHONE QUALITY SPEECH DATA"
+  author: Kotra Venkata Sai Ritwik, Shareef Babu Kalluri, Deepu Vijayasenan
+  pub: 
+  type: journal
+  project_page: 
+  paper_link: https://arxiv.org/pdf/2011.04299.pdf
+  code_link: 
+  bibtex: 
+  
+- paper: "Automatic speaker profiling from short duration speech data"
+  author: Shareef Babu Kalluri , Deepu Vijayasenan , Sriram Ganapathy 
+  pub: Speech Communications, vol.121, p 16-28, May 2020
+  type: journal
+  paper_link: https://www.sciencedirect.com/science/article/pii/S0167639319301074
+  code_link: 
+  bibtex: 
+  
+
+- paper: "NISP: A Multi-lingual Multi-accent Dataset for Speaker Profiling"
+  author: Shareef Babu Kalluri, Deepu Vijayasenan, Sriram Ganapathy, Ragesh Rajan M, Prashant Krishnan
+  pub: IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+  type: journal
+  paper_link: https://www.sciencedirect.com/science/article/pii/S0167639319301074
+  code_link: 
+  bibtex: 
+   
+- paper : "A Deep Neural Network based End to End Model for Joint Height and Age Estimation from Short Duration Speech"
+  author: Kalluri, Shareef Babu , Deepu Vijayasenan, Sriram Ganapathy
+  pub : 44th IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). Brighton, United Kingdom, 2019, pp. 6580-6584, IEEE, 2019.
+  type: journal
+  paper_link: https://www.sciencedirect.com/science/article/pii/S0167639319301074
+  code_link: 
+  bibtex: 
+  
+
+- paper : "Robust Features for Automatic Estimation of Physical Parameters from Speech"
+  author: Babu, Kalluri Shareef, and Deepu Vijayasenan.
+  pub: TENCON 2017-2017 IEEE Region 10 Conference , IEEE, 2017
+  type: journal
+  paper_link: https://www.sciencedirect.com/science/article/pii/S0167639319301074
+  code_link: 
+  bibtex: 
+
+- paper : "Estimating multiple physical parameters from speech data."
+  author: Kalluri, Shareef Babu, Ashwin Vijayakumar, Deepu Vijayasenan, and Rita Singh.
+  type: journal
+  pub: IEEE 26th International Workshop on Machine Learning for Signal Processing (MLSP). IEEE, 2016.
+  paper_link: https://www.sciencedirect.com/science/article/pii/S0167639319301074
+  code_link: 
+  bibtex: 
+
+
+- paper : "Study of Wireless Channel Effects on Audio Forensics"
+  author: Vijayasenan, Deepu, Shareef Babu Kalluri, K. Sreekanth, and Ansal Issac.
+  type: journal
+  pub: 22nd Annual International Conference on Advanced Computing and Communication (ADCOM), pp. 33-37. IEEE, 2016.
+  paper_link: https://www.sciencedirect.com/science/article/pii/S0167639319301074
+  code_link: 
+  bibtex: 
+
+- paper : "COVID-19 Detection from Spectral Features on the DiCOVA Dataset."
+  author: Ritwik, Kotra Venkata Sai, Shareef Babu Kalluri, and Deepu Vijayasenan.
+  type: journal
+  paper_link: https://www.sciencedirect.com/science/article/pii/S0167639319301074
+  code_link: 
+  bibtex: 
+
+- paper : "A deep learning model for the automatic detection of malignancy in effusion cytology"
+
+  author: Shajahan Aboobacker, Deepu Vijayasenan, S Sumam David, Pooja K Suresh, Saraswathy Sreeram
+
+  type: conference
+  pub: 2020 IEEE International Conference on Signal Processing, Communications and Computing (ICSPCC)
+  paper_link: "https://ieeexplore.ieee.org/iel7/9259428/9259448/09259490.pdf"
+
+
+- paper : "Semantic Segmentation on Low Resolution Cytology Images of Pleural and Peritoneal Effusion"
+  author: Shajahan Aboobacker, Akash Verma, Deepu Vijayasenan, Pooja K Suresh, Saraswathy Sreeram
+  paper_link: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9806747"
+  type: conference
+  pub : 2022 National Conference on Communications (NCC)
+
+  paper_link: "https://www.sciencedirect.com/science/article/pii/S0010482522008873"
+- paper : "Semantic segmentation of low magnification effusion cytology images A semi-supervised approach"
+  type: conference
+  pub : Computers in Biology and Medicine
+  author: Shajahan Aboobacker, Deepu Vijayasenan, Pooja K Suresh, Saraswathy Sreeram
