@@ -1,4 +1,4 @@
-# Visual Computing Lab Official Website
+# SMILE Lab NITK Official Website
 
 ### Add a new member
 
