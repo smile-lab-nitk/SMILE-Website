@@ -1,81 +1,79 @@
 ############################ PHD STUDENTS ############################
-- name: Kalluri Shareef Babu 
-  research_area: Speech signal Procesing
-  photo: 
-  position: Research Scholar
-  year: 201-Present
-  url:
-  linkedin: 
-  google_scholar: 
-  
-- name: Ragesh Rajan M
-  research_area: Speech signal Procesing
-  photo: 
-  position: Research Scholar
-  year: 201-Present
-  url:
-  linkedin: 
-  google_scholar: 
-
-- name: Shajahan Aboobacker 
-  research_area: Image Processing
-  photo: 
-  position: Research Scholar
-  year: 201-Present
-  url:
-  linkedin: 
-  google_scholar: 
-  
 - name: Vidyashree Kanabur
   research_area: Image Processing
-  photo: 
+  photo: Vidyashree.jpg
   position: Research Scholar
-  year: 201-Present
-  url:
+  year: 2020-Present
+  email: vidyashreerk1992@gmail.com
   linkedin: 
-  google_scholar: 
+  google_scholar: https://scholar.google.com/citations?user=6L1jOUgAAAAJ&hl=en 
   
 - name: Raichel Philip Yohannan
   research_area: Image Processing
-  photo: 
+  photo: raichel.jpg 
   position: Research Scholar
-  year: 201-Present
-  url:
+  year: 2021-Present
+  email:
   linkedin: 
   google_scholar: 
   
 - name: Pratik Ranjan Roy Chowdhuri
-  research_area: Speech signal Procesing
-  photo: 
+  research_area: Speech Signal Processing
+  photo: roy.jpg 
   position: Research Scholar
   year: 2021-Present
-  url:
+  email: pratikroychowdhuri@gmail.com
+  linkedin: 
+  google_scholar: https://scholar.google.com/citations?hl=en&user=23nNIeEAAAAJ 
+  
+- name: Soby Abraham
+  research_area: Image Processing
+  photo: soby.jpg
+  position: Research Scholar
+  year: 2022-Present
+  email: soby.abraham93@gmail.com
   linkedin: 
   google_scholar: 
   
-- name: 
-  research_area: Speech signal Procesing
-  photo: 
+- name: Shruthi P.R
+  research_area: Image Processing
+  photo: shruthi.jpg
   position: Research Scholar
-  year: 201-Present
+  year: 2024-Present
+  email: shruthi.cdt@gmail.com
+  linkedin: 
+  google_scholar:   
+  
+############################ MTECH STUDENTS ############################
+
+- name: Ashwini Nagaraj Shenoy
+  research_area: Image Processing
+  photo: Ashwini.jpg
+  position: M.Tech (Research)
+  year: 2023-Present
+  email: anshenoy.233sp001@nitk.edu.in
+  linkedin: 
+  google_scholar: 
+
+############################ INTERNS ############################
+
+- name: Jaslyn Shona Dsouza
+  research_area: Image Processing
+  photo: Jaslyn.jpg 
+  position: Intern
+  year: 2025-Present
   url:
   linkedin: 
   google_scholar: 
 
-
-############################ MTECH STUDENTS ############################
-
-
-
-########################## Project Assistants ##########################
-
-- name: Somil Jain
-  photo: 
-  position: Junior Research Fellow
-  year: 2022-Present
-  url: 
-  linkedin:
-
+- name: Fiona Caroline Aranha
+  research_area: Image Processing
+  photo: fiona.jpg 
+  position: Intern
+  year: 2025-Present
+  url:
+  linkedin: 
+  google_scholar: 
 
 
 

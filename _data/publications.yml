@@ -1,16 +1,69 @@
-- paper:
-  author: 
-  pub: 
-  type:
-  project_page:
-  paper_link: 
-  code_link: 
-  bibtex: 
-
-
 ################### Coferences and Journals ###################
-
-
+- paper: "The Second DISPLACE Challenge : DIarization of SPeaker and LAnguage in Conversational Environments"
+  author: Shareef Babu Kalluri, Prachi Singh, Pratik Roy Chowdhuri, Apoorva Kulkarni, Shikha Baghel, Pradyoth Hegde, Swapnil Sontakke, Deepak K T, S. R. Mahadeva Prasanna, Deepu Vijayasenan, Sriram Ganapathy
+  pub: INTERSPEECH 2024
+  type: conference
+  project_page: 
+  paper_link: https://arxiv.org/abs/2406.09494
+  code_link: 
+  
+- paper: "Artery Vein Segmentation in Handheld Fundus Camera Retinal Images and leveraging Cross Entropy for improved Semantic performance"
+  author: Raichel Philip Yohannan, S. Sumam David, Deepu Vijayasenan, Ravi Teja Chowdary, R. Girish Menon, Sudha Girish Menon
+  pub: CVMI 2024
+  type: conference
+  project_page: 
+  paper_link: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10782781 
+  code_link: 
+  
+- paper: "Identification of Myeloproliferative Neoplasms using Deep Learning"
+  author: Soby Abraham, Bhumireddy Penchalareddy, Sumam David S., Deepu Vijayasenan, Sridevi H B
+  pub: WiDS PSU 2024 
+  type: conference
+  project_page: 
+  paper_link: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10571882
+  code_link:   
+  
+- paper: "The DISPLACE Challenge 2023 - DIarization of SPeaker and LAnguage in Conversational Environments"
+  author: Shikha Baghel, Shreyas Ramoji, Sidharth, Ranjana H, Prachi Singh, Somil Jain, Pratik Roy Chowdhuri, Kaustubh Kulkarni, Swapnil Padhi, Deepu Vijayasenan, Sriram Ganapathy
+  pub: INTERSPEECH 2023
+  type: conference
+  project_page: 
+  paper_link: https://www.isca-archive.org/interspeech_2023/baghel23_interspeech.pdf
+  code_link: 
+    
+- paper: "A Deep Learning Approach to Enhance Semantic Segmentation of Bacteria and Pus Cells from Microscopic Urine Smear Images Using Synthetic Data"
+  author: Vidyashree R Kanabur, Deepu Vijayasenan, Sumam David S, Sreejith Govindan
+  pub: CVIP 2023
+  type: conference
+  project_page: 
+  paper_link: https://link.springer.com/chapter/10.1007/978-3-031-58181-6_21
+  code_link: 
+  
+- paper: "Semi-automatic labeling and semantic segmentation of gram-stained microscopic images from DIBaS dataset"
+  author: Chethan Reddy GP, Pullagurla Abhijith Reddy, Vidyashree R Kanabur, Deepu Vijayasenan, Sreejith Govindan
+  pub: ICCSC 2023
+  type: conference
+  project_page: 
+  paper_link: https://ieeexplore.ieee.org/abstract/document/10142976
+  code_link: 
+    
+- paper: "Adversarial Learning Based Semi-supervised Semantic Segmentation of Low Resolution Gram Stained Microscopic Images"
+  author: H Singh, VR Kanabur, SD Sumam, D Vijayasenan, S Govindan
+  pub: CVIP 2023
+  type: conference
+  project_page: 
+  paper_link: https://link.springer.com/chapter/10.1007/978-3-031-58174-8_31
+  code_link:
+  
+- paper: "Summary of the DISPLACE Challenge 2023 - DIarization of SPeaker and LAnguage in Conversational Environments"
+  author: Shikha Baghel, Shreyas Ramoji, Somil Jain, Pratik Roy Chowdhuri, Prachi Singh, Deepu Vijayasenan, Sriram Ganapathy
+  pub: 
+  type: journal
+  project_page: 
+  paper_link: https://www.sciencedirect.com/science/article/abs/pii/S0167639324000529
+  code_link: https://github.com/displace2024/Displace2024_baseline_updated
+  bibtex: 
+  
 - paper: "COVID-19 PATIENT DETECTION FROM TELEPHONE QUALITY SPEECH DATA"
   author: Kotra Venkata Sai Ritwik, Shareef Babu Kalluri, Deepu Vijayasenan
   pub: 
@@ -32,7 +85,7 @@
 - paper: "NISP: A Multi-lingual Multi-accent Dataset for Speaker Profiling"
   author: Shareef Babu Kalluri, Deepu Vijayasenan, Sriram Ganapathy, Ragesh Rajan M, Prashant Krishnan
   pub: IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
-  type: journal
+  type: conference
   paper_link: https://www.sciencedirect.com/science/article/pii/S0167639319301074
   code_link: 
   bibtex: 
@@ -40,7 +93,7 @@
 - paper : "A Deep Neural Network based End to End Model for Joint Height and Age Estimation from Short Duration Speech"
   author: Kalluri, Shareef Babu , Deepu Vijayasenan, Sriram Ganapathy
   pub : 44th IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). Brighton, United Kingdom, 2019, pp. 6580-6584, IEEE, 2019.
-  type: journal
+  type: conference
   paper_link: https://www.sciencedirect.com/science/article/pii/S0167639319301074
   code_link: 
   bibtex: 
@@ -49,14 +102,14 @@
 - paper : "Robust Features for Automatic Estimation of Physical Parameters from Speech"
   author: Babu, Kalluri Shareef, and Deepu Vijayasenan.
   pub: TENCON 2017-2017 IEEE Region 10 Conference , IEEE, 2017
-  type: journal
+  type: conference
   paper_link: https://www.sciencedirect.com/science/article/pii/S0167639319301074
   code_link: 
   bibtex: 
 
 - paper : "Estimating multiple physical parameters from speech data."
   author: Kalluri, Shareef Babu, Ashwin Vijayakumar, Deepu Vijayasenan, and Rita Singh.
-  type: journal
+  type: conference
   pub: IEEE 26th International Workshop on Machine Learning for Signal Processing (MLSP). IEEE, 2016.
   paper_link: https://www.sciencedirect.com/science/article/pii/S0167639319301074
   code_link: 
@@ -65,7 +118,7 @@
 
 - paper : "Study of Wireless Channel Effects on Audio Forensics"
   author: Vijayasenan, Deepu, Shareef Babu Kalluri, K. Sreekanth, and Ansal Issac.
-  type: journal
+  type: conference
   pub: 22nd Annual International Conference on Advanced Computing and Communication (ADCOM), pp. 33-37. IEEE, 2016.
   paper_link: https://www.sciencedirect.com/science/article/pii/S0167639319301074
   code_link: 

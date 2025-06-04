@@ -1,18 +1,15 @@
-- name: Dr.Sumam David S
-  photo: Sumam.png 
+- name: Dr. Sumam David S
+  photo: sumam_maam.png
   info:  Professor
   affl:  ECE Dept, NITK Surathkal
-  email: 
+  email: sumam@nitk.edu.in
   linkedin: 
-  google_scholar: 
+  google_scholar: https://scholar.google.co.in/citations?user=SISPkHYAAAAJ&hl=en 
   
-- name: Dr.Deepu Vijayasenan
-  photo: Deepu.png 
-  info: Associate Professor
-  affl:  ECE Dept, NITK Surathkal
-  email: 
+- name: Dr. Deepu Vijayasenan
+  photo: deepu_Sir.jpg 
+  info: Professor
+  affl: ECE Dept, NITK Surathkal
+  email: deepuv@nitk.edu.in 
   linkedin: 
-  google_scholar: 
-  
-
-
+  google_scholar: https://scholar.google.com/citations?user=al4jnogAAAAJ&hl=en

@@ -27,7 +27,7 @@ Sample example for adding a current member.
 #### Add Alumni
 
 - Add detauks in [_data/lab_alumni.yml](_data/lab_alumni.yml)
-- The `position` field accepts only values `M. Tech. (CDS)`, `Ph. D.`, `M. Tech. (research)`, `Project Assistant`, `Intern`. These are case case sensitive
+- The `position` field accepts only values `M. Tech. (CDS)`, `Ph. D.`, `M.Tech. (research)`, `Project Assistant`, `Intern`. These are case case sensitive
 - On website it will automatically show Dissertation/Thesis based on qualification.
 
 Sample example for adding an alumnus.

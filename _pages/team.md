@@ -110,11 +110,12 @@ permalink: /team/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="37%" style="float: left; padding: 5px" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="40%" style="float: left; padding: 15px; margin-right: 20px;" />
   <h5><b>{{ member.name }} </b></h5>
 
   <i>{{ member.position }} ({{ member.year }}) <br></i>
-  Research Area: <i>{{ member.research_area }} <br></i>
+  Research Area: <i>{{ member.research_area }} </i>
+  <br><i>E-Mail: {{ member.email }} </i>
   <ul class="list-inline list-unstyled">
     <!-- Twitter -->
     {% if member.url %}
@@ -146,12 +147,10 @@ permalink: /team/
 {% endif %}
 
 <br>
-
-### Junior Research fellow
-
+## Mtech Students
 {% assign number_printed = 0 %}
 {% for member in site.data.lab_members %}
-{% if member.position=="Project Assistant" or member.position=="Junior Research Fellow" %}
+{% if member.position=="M. Tech" or member.position=="M.Tech (Research)" %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -160,12 +159,12 @@ permalink: /team/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="37%" style="float: left; padding: 5px" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="37%" style="float: left; padding: 6px" />
   <h5><b>{{ member.name }} </b></h5>
 
   <i>{{ member.position }} ({{ member.year }}) <br></i>
-  Past: <i>{{ member.past }} <br></i>
-
+  Research Area: <i>{{ member.research_area }}</i>
+  <br><i>E-Mail: {{ member.email }}</i>
   <ul class="list-inline list-unstyled">
     <!-- Twitter -->
     {% if member.url %}
@@ -197,6 +196,7 @@ permalink: /team/
 {% endif %}
 
 <br>
+
 
 ### Interns
 
@@ -273,20 +273,6 @@ permalink: /team/
 <ul>
 {% for member in site.data.lab_alumni %}
   {% if member.position=="Project Assistant" %}
-    {% if member.url %}
-      <li><b><a href="{{ member.url }}" target="_blank">{{ member.name }}</a></b>, {{ member.position }} ({{ member.year }}), Current: <i>{{ member.affiliation}}</i> </li>
-    {% else %}
-      <li><b>{{ member.name }}</b>, {{ member.position }} ({{ member.year }}), Current: <i>{{ member.affiliation}}</i> </li>
-    {% endif %}
-  {% endif %}
-{% endfor %}
-</ul>
-
-### Interns
-
-<ul>
-{% for member in site.data.lab_alumni %}
-  {% if member.position=="Intern" %}
     {% if member.url %}
       <li><b><a href="{{ member.url }}" target="_blank">{{ member.name }}</a></b>, {{ member.position }} ({{ member.year }}), Current: <i>{{ member.affiliation}}</i> </li>
     {% else %}
