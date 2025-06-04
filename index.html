@@ -1,203 +1,149 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+<head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SMILE LAB NITK - Home</title>
   <meta name="description" content="SMILE lab ECE, NITK">
-  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/">
-  <link rel="shortcut icon" type ="image/x-icon" href="http://localhost:4000/images/favicon.ico">
+
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}/">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/images/favicon.ico">
+
   <script src="https://kit.fontawesome.com/a24320d871.js" crossorigin="anonymous"></script>
   <style>
-  body {
-    background: linear-gradient(to right, #fad0c4, #ff6699);
-  }
-</style>
+    body {
+      background: linear-gradient(to right, #fad0c4, #ff6699);
+    }
+  </style>
 
   <style>
-    /* Marquee Effect */
     .marquee {
       width: 100%;
       white-space: nowrap;
       overflow: hidden;
       box-sizing: border-box;
     }
+
     .marquee-text {
       display: inline-block;
       animation: scroll-text 10s linear infinite;
     }
+
     @keyframes scroll-text {
       0% {
         transform: translateX(100%);
       }
+
       100% {
         transform: translateX(-100%);
       }
     }
   </style>
-
-
-
 </head>
+
 <body>
   <div class="marquee">
     <h1 class="marquee-text">Welcome to the Stochastic Modeling, Imaging and LEarning (SMILE) Lab @ NITK</h1>
   </div>
-</body>
 
-
-
-  <body>
-
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-color: #007bff; padding: 4px 0;">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-    <div class="collapse navbar-collapse" id="navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="http://localhost:4000/" style="font-size: 16px; color: white; padding: 8px 12px;">Home</a></li>
-        <li><a href="http://localhost:4000/team" style="font-size: 16px; color: white; padding: 8px 12px;">Team</a></li>
-        <li><a href="http://localhost:4000/publications" style="font-size: 16px; color: white; padding: 8px 12px;">Publications</a></li>
-        <li><a href="http://localhost:4000/allnews" style="font-size: 16px; color: white; padding: 8px 12px;">News</a></li>
-        <li><a href="http://localhost:4000/openings" style="font-size: 16px; color: white; padding: 8px 12px;">Openings</a></li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-
-
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-color: #007bff; padding: 4px 0;">
     <div class="container-fluid">
-      <div class="col-sm-12">
-        <div class="row">
-          <div id="homeid" class="col-sm-7 ml-0 nopadding-left">
-	<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
-		<!-- Menu -->
-		<ol class="carousel-indicators">
-			<li data-target="#carousel" data-slide-to="0" class="active"></li>
-			<li data-target="#carousel" data-slide-to="1"></li>
-			<li data-target="#carousel" data-slide-to="1"></li>
-		</ol>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="{{ site.baseurl }}/" style="font-size: 16px; color: white; padding: 8px 12px;">Home</a></li>
+          <li><a href="{{ site.baseurl }}/team" style="font-size: 16px; color: white; padding: 8px 12px;">Team</a></li>
+          <li><a href="{{ site.baseurl }}/publications" style="font-size: 16px; color: white; padding: 8px 12px;">Publications</a></li>
+          <li><a href="{{ site.baseurl }}/allnews" style="font-size: 16px; color: white; padding: 8px 12px;">News</a></li>
+          <li><a href="{{ site.baseurl }}/openings" style="font-size: 16px; color: white; padding: 8px 12px;">Openings</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-		<!-- Items -->
-<!--		<div class="carousel-inner" markdown="0">
-			<div class="item active">
-				<a href=><img src="http://localhost:4000/images/slider/team_pic.jpg" alt="Slide 2" /></a>
-			</div>
-			<div class="item">
-				<a href=><img src="http://localhost:4000/images/slider/ZSKD.png" alt="Slide 2" /></a>
-			</div>
-			<div class="item">
-				<a href=><img src="http://localhost:4000/images/slider/iisc.jpg" alt="Slide 1" /></a>
-			</div>
-			<div class="item">
-				<a href=><img src="http://localhost:4000/images/slider/cds.jpg" alt="Slide 2" /></a>
-			</div>
-		</div>  
-		<a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-		<span class="sr-only">Previous</span>
-		</a>
-		<a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-		<span class="sr-only">Next</span>
-		</a> -->
-	</div>
+  <div class="container-fluid">
+    <div class="col-sm-12">
+      <div class="row">
+        <div id="homeid" class="col-sm-7 ml-0 nopadding-left">
+          <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel" data-slide-to="1"></li>
+              <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+          </div>
 
-	<h3 id="welcome-to-the-stochastic-modeling-imaging-and-learning-smile-lab">Welcome to the Stochastic Modeling, Imaging and LEarning (SMILE) Lab</h3>
+          <h3 id="welcome-to-the-stochastic-modeling-imaging-and-learning-smile-lab">
+            Welcome to the Stochastic Modeling, Imaging and LEarning (SMILE) Lab
+          </h3>
 
-<p>Welcome to the Stochastic Modeling, Imaging and LEarning (SMILE) Lab at the National Institute of Technology Karnataka,Surathkal . We are a part of Department of Electronics and Communication Engineering. 
-In Stochastic Modeling, Imaging and LEarning (SMILE) Lab, we are interested in developing and optimizing novel Deep learning and speech signal processing algorithms to solve real world problems. Majority of our ongoing research projects can be categorized into one of the following two areas</p>
+          <p>Welcome to the Stochastic Modeling, Imaging and LEarning (SMILE) Lab at the National Institute of Technology Karnataka, Surathkal. We are a part of the Department of Electronics and Communication Engineering. In SMILE Lab, we are interested in developing and optimizing novel Deep Learning and Speech Signal Processing algorithms to solve real-world problems. Majority of our ongoing research projects fall under:</p>
 
-<ol>
-  <li><em>Image processing and pattern recognition</em></li>
-  <li><em>Speech signal processing</em></li>
-</ol>
+          <ol>
+            <li><em>Image processing and pattern recognition</em></li>
+            <li><em>Speech signal processing</em></li>
+          </ol>
 
-<figure class="centered">
-  <p align="center">
-    <img src="http://localhost:4000/images/logo/nitk_logo.png" style="margin-right:50px;margin-left:50px;width: 200px" />
-
-    </p>
-</figure>
-
-</div>
-<!-- 
-<div id="newsid" class="col-sm-4 nopadding-right" >
-	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<a class="twitter-timeline" data-tweet-limit="3"
-data-chrome="noheader nofooter noborders"
-href="https://twitter.com/Twitter"></a>
-
-
-</div> -->
-
-<div id="newsid" class="col-sm-5" >
-	
-<div class="well">
-    <h4><b>Latest News</b></h4>
-    <hr>
-    
-    <p><b>October 2024</b>:<p>1 paper accepted at CVMI 2024. Congratulations Raichel!</p>
-</p>
-    
-    <p><b>October 2024</b>:<p>1 paper accepted at INTERSPEECH 2024. Congratulations Pratik!</p>
-</p>
-    
-    <p><b>July 2024</b>:<p>1 paper accepted at IEEE Space 2024. Congratulations Ashwini!</p>
-</p>
-    
-    <p><b>March 2024</b>:<p>1 paper accepted at WiDS PSU 2024. Congratulations Soby!</p>
-</p>
-    
-    
-    <h4><a href="http://localhost:4000/allnews">[See All News]</a></h4>
-    
+          <figure class="centered">
+            <p align="center">
+              <img src="{{ site.baseurl }}/images/logo/nitk_logo.png" style="margin-right:50px;margin-left:50px;width: 200px" />
+            </p>
+          </figure>
         </div>
+
+        <div id="newsid" class="col-sm-5">
+          <div class="well">
+            <h4><b>Latest News</b></h4>
+            <hr>
+            <p><b>October 2024</b>: 1 paper accepted at CVMI 2024. Congratulations Raichel!</p>
+            <p><b>October 2024</b>: 1 paper accepted at INTERSPEECH 2024. Congratulations Pratik!</p>
+            <p><b>July 2024</b>: 1 paper accepted at IEEE Space 2024. Congratulations Ashwini!</p>
+            <p><b>March 2024</b>: 1 paper accepted at WiDS PSU 2024. Congratulations Soby!</p>
+            <h4><a href="{{ site.baseurl }}/allnews">[See All News]</a></h4>
+          </div>
+        </div>
+
+        <div id="newsid" class="col-sm-5">
+          <div class="well">
+            <h4><b>Contact Us</b></h4>
+            <hr>
+            <b>SMILE LAB (NITK)</b><br>
+            Dept. of Electronics and Communication<br>
+            National Institute of Technology<br>
+            Karnataka, Surathkal 575025<br>
+            <i>E-Mail</i>: deepuv@nitk.edu.in<br>
+            <i>Phone</i>: +91 97 3932 7595<br>
+          </div>
+        </div>
+
+      </div>
+    </div>
   </div>
-  <div id="newsid" class="col-sm-5" >
-	
-<div class="well">
-    <h4><b>Contact Us</b></h4>
-    <hr>
-    <b>SMILE LAB (NITK)</b><br>
-    Dept. of Electronics and Communication<br>
-    National Institute of Technology<br>
-    Karnataka, Surathkal 575025<br>
-    <i>E-Mail</i>: deepuv@nitk.edu.in<br>
-    <i>Phone</i>: +91 97 3932 7595<br>
 
-</div>
-
-  </div>
-
+  <div id="footer" class="panel">
+    <div class="panel-footer">
+      <div class="container-fluid">
+        <div class="row mt-3">
+          <p class="text-center">Checkout our <a href="https://github.com/vcl-iisc">GitHub Repository</a></p>
         </div>
       </div>
     </div>
-
-    <div id="footer" class="panel">
-  <div class="panel-footer">
-	<div class="container-fluid">
-		<div class="row mt-3">
-			<p class="text-center">Checkout our <a href="https://github.com/vcl-iisc">GitHub Repository</a></p>
-		</div>
-	</div>
   </div>
-</div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="http://localhost:4000/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
 
-  </body>
+</body>
 
 </html>
+
