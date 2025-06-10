@@ -11,9 +11,9 @@ permalink: /team/
 
 
 
-##### Jump to [Faculty](#Lab%20Heads), [Research Scholars](#Current%20Members), [M.Tech(R)](#MTech%20by%20Research), [Interns](#interns), [Alumni](#alumni)
+##### Jump to [Faculty](#Lab-Heads), [Research Scholars](#Current-Members), [M.Tech(R)](#MTech-by-Research), [Interns](#interns), [Alumni](#alumni)
 
-## Lab%20Heads
+## Lab-Heads
 {% assign number_printed = 0 %}
 {% for member in site.data.lab_head %}
 
@@ -96,7 +96,7 @@ permalink: /team/
 {% endif %}
 
 
-## Current%20Members
+## Current-Members
 
 ### Research Scholars
 
@@ -149,7 +149,7 @@ permalink: /team/
 
 <br>
 
-### M.Tech%20by%20Research
+### M.Tech-by-Research
 {% assign number_printed = 0 %}
 {% for member in site.data.lab_members %}
 {% if member.position=="M. Tech" or member.position=="M.Tech (Research)" %}
