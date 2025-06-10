@@ -95,8 +95,9 @@ permalink: /team/
 </div>
 {% endif %}
 
+## Current Members
 
-## Research Scholars
+### Research Scholars
 
 
 {% assign number_printed = 0 %}
@@ -148,7 +149,7 @@ permalink: /team/
 
 <br>
 
-## M.Tech(R)
+### M.Tech(R)
 {% assign number_printed = 0 %}
 {% for member in site.data.lab_members %}
 {% if member.position=="M. Tech" or member.position=="M.Tech (Research)" %}
