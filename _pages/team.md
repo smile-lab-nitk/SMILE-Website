@@ -147,7 +147,9 @@ permalink: /team/
 {% endif %}
 
 <br>
-## mtech 
+## mtech
+
+### M.Tech by Research
 {% assign number_printed = 0 %}
 {% for member in site.data.lab_members %}
 {% if member.position=="M. Tech" or member.position=="M.Tech (Research)" %}
