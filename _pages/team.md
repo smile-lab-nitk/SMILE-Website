@@ -11,7 +11,7 @@ permalink: /team/
 
 
 
-##### Jump to [Faculty](#fLab Heads), [Research Scholars](#Current Members), [M.Tech(R)](#MTech by Research), [Interns](#interns), [Alumni](#alumni)
+##### Jump to [Faculty](#fLab Heads), [Research Scholars](#currentmember), [M.Tech(R)](#MTech by Research), [Interns](#interns), [Alumni](#alumni)
 
 ## Lab Heads
 {% assign number_printed = 0 %}
@@ -95,6 +95,7 @@ permalink: /team/
 </div>
 {% endif %}
 
+# currentmember
 ## Current Members
 
 ### Research Scholars
