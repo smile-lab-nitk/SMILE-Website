@@ -11,7 +11,7 @@ permalink: /team/
 
 
 
-##### Jump to [Faculty](#lab-head), [PhD/Masters student](#phd-masters-student), [Junior Resarch Fellow / Research Project Assistants](#research-project-assistants), [Alumni](#alumni)
+##### Jump to [Facultyfaculty), [Research Scholars](#currentmember), [Mtech], [Interns](#interns), [Alumni](#alumni)
 
 ## Faculty
 {% assign number_printed = 0 %}
