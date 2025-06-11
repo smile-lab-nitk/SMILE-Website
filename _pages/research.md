@@ -1,7 +1,7 @@
 ---
 title: "Research"
 layout: default
-excerpt: "SMILE LAB, CDS, IISc"
+excerpt: "SMILE LAB, NITK"
 sitemap: false
 permalink: /openings/
 ---
