@@ -98,32 +98,6 @@
   code_link: 
   bibtex: 
   
-
-- paper : "Robust Features for Automatic Estimation of Physical Parameters from Speech"
-  author: Babu, Kalluri Shareef, and Deepu Vijayasenan.
-  pub: TENCON 2017-2017 IEEE Region 10 Conference , IEEE, 2017
-  type: conference
-  paper_link: https://www.sciencedirect.com/science/article/pii/S0167639319301074
-  code_link: 
-  bibtex: 
-
-- paper : "Estimating multiple physical parameters from speech data."
-  author: Kalluri, Shareef Babu, Ashwin Vijayakumar, Deepu Vijayasenan, and Rita Singh.
-  type: conference
-  pub: IEEE 26th International Workshop on Machine Learning for Signal Processing (MLSP). IEEE, 2016.
-  paper_link: https://www.sciencedirect.com/science/article/pii/S0167639319301074
-  code_link: 
-  bibtex: 
-
-
-- paper : "Study of Wireless Channel Effects on Audio Forensics"
-  author: Vijayasenan, Deepu, Shareef Babu Kalluri, K. Sreekanth, and Ansal Issac.
-  type: conference
-  pub: 22nd Annual International Conference on Advanced Computing and Communication (ADCOM), pp. 33-37. IEEE, 2016.
-  paper_link: https://www.sciencedirect.com/science/article/pii/S0167639319301074
-  code_link: 
-  bibtex: 
-
 - paper : "COVID-19 Detection from Spectral Features on the DiCOVA Dataset."
   author: Ritwik, Kotra Venkata Sai, Shareef Babu Kalluri, and Deepu Vijayasenan.
   type: journal
@@ -151,3 +125,28 @@
   type: conference
   pub : Computers in Biology and Medicine
   author: Shajahan Aboobacker, Deepu Vijayasenan, Pooja K Suresh, Saraswathy Sreeram
+  
+  - paper : "Robust Features for Automatic Estimation of Physical Parameters from Speech"
+  author: Babu, Kalluri Shareef, and Deepu Vijayasenan.
+  pub: TENCON 2017-2017 IEEE Region 10 Conference , IEEE, 2017
+  type: conference
+  paper_link: https://www.sciencedirect.com/science/article/pii/S0167639319301074
+  code_link: 
+  bibtex: 
+
+- paper : "Estimating multiple physical parameters from speech data."
+  author: Kalluri, Shareef Babu, Ashwin Vijayakumar, Deepu Vijayasenan, and Rita Singh.
+  type: conference
+  pub: IEEE 26th International Workshop on Machine Learning for Signal Processing (MLSP). IEEE, 2016.
+  paper_link: https://www.sciencedirect.com/science/article/pii/S0167639319301074
+  code_link: 
+  bibtex: 
+
+
+- paper : "Study of Wireless Channel Effects on Audio Forensics"
+  author: Vijayasenan, Deepu, Shareef Babu Kalluri, K. Sreekanth, and Ansal Issac.
+  type: conference
+  pub: 22nd Annual International Conference on Advanced Computing and Communication (ADCOM), pp. 33-37. IEEE, 2016.
+  paper_link: https://www.sciencedirect.com/science/article/pii/S0167639319301074
+  code_link: 
+  bibtex: 
