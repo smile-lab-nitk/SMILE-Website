@@ -4,11 +4,18 @@ title: "Gallery"
 permalink: /gallery/
 ---
 
-<h2>ICASSP 2025</h2>
+<h2 align="center">ICASSP 2025</h2>
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px;">
-  <figure style="width: 30%;">
-    <img src="{{ site.baseurl }}/images/photos/pic_1.jpeg" alt="Lab Work" style="width: 100%; border-radius: 10px;">
-    <figcaption style="text-align: center;">Working on research</figcaption>
-  </figure>
-</div>
+<figure class="centered">
+  <p align="center">
+    <img src="{{ site.baseurl }}/images/photos/pic_1.jpeg" style="margin: 20px; width: 300px; border-radius: 10px;" />
+  </p>
+  <figcaption style="text-align: center; font-style: italic;">Working on research</figcaption>
+</figure>
+
+<figure class="centered">
+  <p align="center">
+    <img src="{{ site.baseurl }}/images/photos/pic_2.jpeg" style="margin: 20px; width: 300px; border-radius: 10px;" />
+  </p>
+  <figcaption style="text-align: center; font-style: italic;">Experimental setup</figcaption>
+</figure>
