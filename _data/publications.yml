@@ -119,14 +119,14 @@
   paper_link: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9806747"
   type: conference
   pub : 2022 National Conference on Communications (NCC)
-
   paper_link: "https://www.sciencedirect.com/science/article/pii/S0010482522008873"
+  
 - paper : "Semantic segmentation of low magnification effusion cytology images A semi-supervised approach"
   type: conference
   pub : Computers in Biology and Medicine
   author: Shajahan Aboobacker, Deepu Vijayasenan, Pooja K Suresh, Saraswathy Sreeram
   
-  - paper : "Robust Features for Automatic Estimation of Physical Parameters from Speech"
+- paper : "Robust Features for Automatic Estimation of Physical Parameters from Speech"
   author: Babu, Kalluri Shareef, and Deepu Vijayasenan.
   pub: TENCON 2017-2017 IEEE Region 10 Conference , IEEE, 2017
   type: conference
