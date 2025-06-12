@@ -1,5 +1,12 @@
 ############################  Research Scholars ############################
-
+- name: Shajahan Aboobacker 
+  photo: Shajahan.png
+  position: Research Scholar
+  year: 2018-2024
+  url: https://www.linkedin.com/in/shajahan-aboobacker-71a87585/
+  linkedin: 
+  affiliation: Associate Professor, St Joseph Engineering College
+  worked_on: Biomedical Image Processing 
 
 - name: Ragesh Rajan M
   photo:
@@ -14,17 +21,10 @@
   position: Research Scholar
   year: 2013-21
   url: https://www.linkedin.com/in/shareefbabu/
-  affiliation: Post-Doc Fellow at IISC Bangalore
-  worked_on: Speech Signal Processing 
+  affiliation: Assistant Professor, University of Petroleum and Energy Studies, Dehradun 
+  worked_on: Speech Signal Processing and Machine Learning
 
-- name: Shajahan Aboobacker 
-  photo: Shajahan.png
-  position: Research Scholar
-  year: 2018-2024
-  url: https://www.linkedin.com/in/shajahan-aboobacker-71a87585/
-  linkedin: 
-  affiliation: Associate Professor, St Joseph Engineering College
-  worked_on: Biomedical Image Processing 
+
 
 
 ########################## Project Assistants ##########################
