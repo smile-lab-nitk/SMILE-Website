@@ -4,7 +4,7 @@ title: "Gallery"
 permalink: /gallery/
 ---
 
-<h2>Lab Activities</h2>
+<h2>ICASSP 2025</h2>
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
   <figure style="width: 30%;">
