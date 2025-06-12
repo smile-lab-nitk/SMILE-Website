@@ -1,9 +1,10 @@
+---
 title: "Gallery"
 layout: default
 excerpt: "Gallery"
 sitemap: false
 permalink: /gallery
-
+---
 # Gallery
 
 
