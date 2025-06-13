@@ -1,11 +1,59 @@
-
 <div class="well">
-    <h4><b>Latest News</b></h4>
-    <hr>
-    {% for article in site.data.news limit:4 %}
-    <p><b>{{ article.date }}</b>:{{ article.headline | markdownify}}</p>
-    {% endfor %}
-    
-    <h4><a href="{{ site.url }}{{ site.baseurl }}/allnews">[See All News]</a></h4>
-    
-        </div>
+  <h4><b>Latest News</b></h4>
+  <hr>
+
+  <div class="news-container">
+    <div class="news-marquee">
+      <div class="news-track">
+        {% assign sorted_news = site.data.news | sort: "date" | reverse %}
+        {% for article in sorted_news %}
+          <p><b>{{ article.date }}</b>: {{ article.headline | markdownify }}</p>
+        {% endfor %}
+        {% for article in sorted_news %}
+          <p><b>{{ article.date }}</b>: {{ article.headline | markdownify }}</p> <!-- duplicated for smooth loop -->
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <h4><a href="{{ site.url }}{{ site.baseurl }}/allnews">[See All News]</a></h4>
+</div>
+
+<style>
+.news-container {
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+
+.news-marquee {
+  position: absolute;
+  width: 100%;
+}
+
+.news-track {
+  display: flex;
+  flex-direction: column;
+  animation: scroll-up 20s linear infinite;
+}
+
+.news-track p {
+  margin: 0;
+  padding: 6px 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+@keyframes scroll-up {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+</style>
