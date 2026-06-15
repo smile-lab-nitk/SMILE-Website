@@ -70,7 +70,7 @@
   research_area: Image Processing
   photo: Jaslyn.jpg 
   position: Intern
-  year: 2025-Present
+  year: February,2025 - June,2025
   url:
   linkedin: 
   google_scholar: 
@@ -79,12 +79,37 @@
   research_area: Image Processing
   photo: fiona.jpg 
   position: Intern
-  year: 2025-Present
+  year: February,2025 - June,2025
+  url:
+  linkedin: 
+  google_scholar: 
+  
+- name: Vaishnavi R K
+  research_area: Image Processing
+  photo: Vaishnavi.jpeg 
+  position: Intern
+  year: June,2026 - July,2026
+  url:
+  linkedin: 
+  google_scholar: 
+
+- name: Ashutosh Srivastava
+  research_area: Speech Processing
+  photo: Ashutosh.png 
+  position: Intern
+  year: June,2026 - July,2026
+  url:
+  linkedin: 
+  google_scholar: 
+  
+- name: Sai Shanmukh H K
+  research_area: Speech Processing
+  photo: sai_Shanmukh.jpeg 
+  position: Intern
+  year: June,2026 - July,2026
   url:
   linkedin: 
   google_scholar: 
 
 
-
-
-  # url: https://umar07.github.io/
+# url: https://umar07.github.io/
