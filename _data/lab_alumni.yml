@@ -1,11 +1,20 @@
 ############################  Research Scholars ############################
+- name: Divya B 
+  photo: Divya.png
+  position: Research Scholar
+  year: 2018-2025
+  url: https://www.linkedin.com/in/divya-b-8864b3112/
+  linkedin: 
+  affiliation: Assistant Professor at Manipal Institute of Technology
+  worked_on: Biomedical Image Processing 
+
 - name: Shajahan Aboobacker 
   photo: Shajahan.png
   position: Research Scholar
   year: 2018-2024
   url: https://www.linkedin.com/in/shajahan-aboobacker-71a87585/
   linkedin: 
-  affiliation: Associate Professor, St Joseph Engineering College
+  affiliation: Associate Professor at St. Joseph Engineering College
   worked_on: Biomedical Image Processing 
 
 - name: Ragesh Rajan M
@@ -13,7 +22,7 @@
   position: Research Scholar
   year: 2014-2021
   url: https://www.linkedin.com/in/ragesh-rajan-m/
-  affiliation: Assistant Professor, Amrita Viswa Vidyapeetham, Kollam
+  affiliation: Assistant Professor at Amrita Viswa Vidyapeetham, Kollam
   worked_on: Speech Signal Procesing
   
 - name: Kalluri Shareef Babu 
