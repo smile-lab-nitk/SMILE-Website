@@ -1,4 +1,12 @@
 ################### Coferences and Journals ###################
+- paper: "Automated Bacteriuria Detection and Grading using Deep Learning"
+  author: Vidyashree R Kanabur, Deepu Vijayasenan, S Sumam David, Sreejith Govindan
+  pub: IEEE Access
+  type: journal
+  project_page: 
+  paper_link: https://ieeexplore.ieee.org/abstract/document/11533378
+  code_link: 
+
 - paper: "The Second DISPLACE Challenge : DIarization of SPeaker and LAnguage in Conversational Environments"
   author: Shareef Babu Kalluri, Prachi Singh, Pratik Roy Chowdhuri, Apoorva Kulkarni, Shikha Baghel, Pradyoth Hegde, Swapnil Sontakke, Deepak K T, S. R. Mahadeva Prasanna, Deepu Vijayasenan, Sriram Ganapathy
   pub: INTERSPEECH 2024
