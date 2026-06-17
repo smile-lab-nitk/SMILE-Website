@@ -149,57 +149,6 @@ permalink: /team/
 
 <br>
 
-### M.Tech(R)
-{% assign number_printed = 0 %}
-{% for member in site.data.lab_members %}
-{% if member.position=="M. Tech" or member.position=="M.Tech (Research)" %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="37%" style="float: left; padding: 6px" />
-  <h5><b>{{ member.name }} </b></h5>
-
-  <i>{{ member.position }} ({{ member.year }}) <br></i>
-  Research Area: <i>{{ member.research_area }}</i>
-  <br><i>E-Mail: {{ member.email }}</i>
-  <ul class="list-inline list-unstyled">
-    <!-- Twitter -->
-    {% if member.url %}
-        <li><a target="blank" href="{{member.url}}"><i class="fa-lg fas fa-globe  "></i></a></li>
-    {% endif %}
-    <!-- Linkedin -->
-    {% if member.linkedin %}
-        <li><a target="blank" href="{{member.linkedin}}"><i class="fa-lg fab fa-linkedin"></i></a></li>
-    {% endif %}
-    {% if member.google_scholar %}
-        <li><a target="blank" href="{{member.google_scholar}}"><i class="fa-lg fab fa-google"></i></a></li>
-    {% endif %}
-  </ul>
-
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-{% endif %}
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-<br>
-
-
 ### Interns
 
 {% assign number_printed = 0 %}
