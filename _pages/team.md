@@ -11,7 +11,7 @@ permalink: /team/
 
 
 
-##### Jump to [Faculty](#faculty), [Research Scholars](#research-scholars), [M.Tech(R)](#mtechr), [Interns](#interns), [Alumni](#alumni)
+##### Jump to [Faculty](#faculty), [Research Scholars](#research-scholars), [Interns](#interns), [Alumni](#alumni)
 
 ## Faculty
 {% assign number_printed = 0 %}
